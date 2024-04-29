@@ -18,6 +18,9 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) ->
                     {
                         pOutput.accept(ModItems.KATANA.get());
+                        pOutput.accept(ModItems.IRON_SAND.get());
+                        pOutput.accept(ModItems.TAMAHAGANE.get());
+
 
                     })
                     .build() );
