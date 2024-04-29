@@ -19,12 +19,20 @@ public class ModItems {
             () -> new SwordItem(ModToolTiers.TAMAHAGANE, 2,-2f, new Item.Properties()));
     public static final RegistryObject<Item> BO= ITEMS.register("bo",
             () -> new SwordItem(Tiers.WOOD, 2,1.6f, new Item.Properties()));
+    public static final RegistryObject<Item> NAGINATA= ITEMS.register("naginata",
+            () -> new SwordItem(Tiers.IRON, 6,-2f, new Item.Properties()));
+    public static final RegistryObject<Item> MACE= ITEMS.register("mace",
+            () -> new SwordItem(Tiers.IRON, 10,-3f, new Item.Properties()));
+    public static final RegistryObject<Item> SAI= ITEMS.register("sai",
+            () -> new SwordItem(Tiers.IRON, 2,1f, new Item.Properties()));
 
 
     //materials
     public static final RegistryObject<Item> IRON_SAND = ITEMS.register("iron_sand",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TAMAHAGANE = ITEMS.register("tamahagane",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MORNING_STAR = ITEMS.register("morning_star",
             () -> new Item(new Item.Properties()));
 
 

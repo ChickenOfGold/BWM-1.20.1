@@ -1,0 +1,17 @@
+{  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    " I ",
+    "III",
+    " I "
+  ],
+  "result": {
+    "item": "bwm:morning_star"
+  },
+  "show_notification": true
+}

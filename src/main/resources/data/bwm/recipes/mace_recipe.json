@@ -1,0 +1,19 @@
+{  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "bwm:morning_star"
+    }
+  },
+  "pattern": [
+    "  I",
+    " # ",
+    "#  "
+  ],
+  "result": {
+    "item": "bwm:mace"
+  }
+}

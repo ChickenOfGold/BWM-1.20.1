@@ -17,9 +17,18 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.bwm"))
                     .displayItems((pParameters, pOutput) ->
                     {
+                        //Weapons
                         pOutput.accept(ModItems.KATANA.get());
+                        pOutput.accept(ModItems.SAI.get());
+                        pOutput.accept(ModItems.BO.get());
+                        pOutput.accept(ModItems.NAGINATA.get());
+                        pOutput.accept(ModItems.MACE.get());
+
+                        //Materials
+                        pOutput.accept(ModItems.MORNING_STAR.get());
                         pOutput.accept(ModItems.IRON_SAND.get());
                         pOutput.accept(ModItems.TAMAHAGANE.get());
+
 
 
                     })
