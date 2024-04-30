@@ -1,3 +1,4 @@
 # Blazoli's Weapons Mod
-A mod adding new weapons to minecraft
-n/ -works on 1.20.1
+A mod adding new weapons to minecraft 
+- works on 1.20.1
+
