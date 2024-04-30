@@ -2,18 +2,18 @@
   "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "item": "bwm:blade"
     },
-    "I": {
-      "item": "bwn:blade"
+    "S": {
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "  I",
-    " # ",
-    "#  "
+    "#",
+    "S"
   ],
   "result": {
-    "item": "bwm:naginata"
-  }
+    "item": "bwm:sai"
+  },
+  "show_notification": true
 }

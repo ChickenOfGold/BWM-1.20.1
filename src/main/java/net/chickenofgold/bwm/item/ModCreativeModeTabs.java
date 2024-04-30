@@ -23,11 +23,15 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.BO.get());
                         pOutput.accept(ModItems.NAGINATA.get());
                         pOutput.accept(ModItems.MACE.get());
+                        pOutput.accept(ModItems.TAMA_KNIFE.get());
+                        pOutput.accept(ModItems.KNIFE.get());
 
                         //Materials
                         pOutput.accept(ModItems.MORNING_STAR.get());
                         pOutput.accept(ModItems.IRON_SAND.get());
                         pOutput.accept(ModItems.TAMAHAGANE.get());
+                        pOutput.accept(ModItems.BLADE.get());
+
 
 
 
