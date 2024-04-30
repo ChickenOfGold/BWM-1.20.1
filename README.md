@@ -1,2 +1,3 @@
-# Forge-Tutorial-1.20.X
- 
+# Blazoli's Weapons Mod
+A mod adding new weapons to minecraft
+-works on 1.20.1
