@@ -1,4 +1,4 @@
-package net.chickenofgold.bwm.item;
+package net.chickenofgold.bwm.item.custom;
 import net.chickenofgold.bwm.BWM;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -18,6 +18,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) ->
                     {
                         //Weapons
+                        pOutput.accept(ModItems.ENDERSWORD.get());
                         pOutput.accept(ModItems.KATANA.get());
                         pOutput.accept(ModItems.SAI.get());
                         pOutput.accept(ModItems.BO.get());
@@ -25,6 +26,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.MACE.get());
                         pOutput.accept(ModItems.TAMA_KNIFE.get());
                         pOutput.accept(ModItems.KNIFE.get());
+                        pOutput.accept(ModItems.KUNAI.get());
 
                         //Materials
                         pOutput.accept(ModItems.MORNING_STAR.get());

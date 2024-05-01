@@ -1,8 +1,7 @@
-package net.chickenofgold.bwm.item;
+package net.chickenofgold.bwm.item.custom;
 import net.chickenofgold.bwm.BWM;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,7 +13,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, BWM.MOD_ID);
 
 
-    //weapons
+    //weapons normal
     public static final RegistryObject<Item> KATANA = ITEMS.register("katana",
             () -> new SwordItem(ModToolTiers.TAMAHAGANE, 2,-2f, new Item.Properties()));
     public static final RegistryObject<Item> TAMA_KNIFE = ITEMS.register("tama_knife",
@@ -30,6 +29,16 @@ public class ModItems {
     public static final RegistryObject<Item> KNIFE= ITEMS.register("knife",
             () -> new SwordItem(Tiers.IRON, -1,4f, new Item.Properties()));
 
+    //weapons but better
+    public static final RegistryObject<Item> ENDERSWORD= ITEMS.register("endsword",
+            () -> new EnderSword(Tiers.DIAMOND, 2,2f, new Item.Properties()));
+
+    //DEBUG
+    public static final RegistryObject<Item> TEST= ITEMS.register("test",
+            () -> new EnderSword(Tiers.DIAMOND, 5,4f, new Item.Properties()));
+    //Projectiles
+    public static final RegistryObject<Item> KUNAI= ITEMS.register("kunai",
+            () -> new KunaiItem(new Item.Properties()));
 
     //materials
     public static final RegistryObject<Item> IRON_SAND = ITEMS.register("iron_sand",

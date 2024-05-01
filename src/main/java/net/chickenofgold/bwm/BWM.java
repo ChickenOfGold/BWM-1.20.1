@@ -1,8 +1,12 @@
 package net.chickenofgold.bwm;
 
 import com.mojang.logging.LogUtils;
-import net.chickenofgold.bwm.item.ModCreativeModeTabs;
-import net.chickenofgold.bwm.item.ModItems;
+import net.chickenofgold.bwm.entity.ModEntities;
+import net.chickenofgold.bwm.item.custom.ModCreativeModeTabs;
+import net.chickenofgold.bwm.item.custom.ModItems;
+import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.minecraft.client.renderer.entity.ThrownItemRenderer;
+import net.minecraft.world.entity.EntityType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -25,6 +29,8 @@ public class BWM {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+
+        ModEntities.register(modEventBus);
 
         ModCreativeModeTabs.register(modEventBus);
 
@@ -55,6 +61,7 @@ public class BWM {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
 
+            EntityRenderers.register(ModEntities.KUNAI_PROJECTILE.get(), ThrownItemRenderer::new);
         }
     }
 }

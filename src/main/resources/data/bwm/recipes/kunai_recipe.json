@@ -3,17 +3,13 @@
   "key": {
     "#": {
       "item": "bwm:blade"
-    },
-    "S": {
-      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "#",
-    "S"
+    "#"
   ],
   "result": {
-    "item": "bwm:knife"
+    "item": "bwm:kunai"
   },
   "show_notification": true
 }

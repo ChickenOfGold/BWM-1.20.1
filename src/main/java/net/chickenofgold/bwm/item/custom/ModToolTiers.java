@@ -1,8 +1,7 @@
-package net.chickenofgold.bwm.item;
+package net.chickenofgold.bwm.item.custom;
 
 import net.chickenofgold.bwm.BWM;
 import net.chickenofgold.bwm.util.ModTags;
-import net.minecraft.client.tutorial.Tutorial;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Tiers;
